@@ -1,0 +1,938 @@
+/*首页开始*/
+
+/* header */
+.headerWrap{
+	width:100%;
+	height:159px;
+	border-bottom:1px solid #038fee;
+}
+.head-top{
+	overflow:hidden;
+	position:relative;
+}
+/*滚动样式*/
+.scroll-title{
+	width:700px;
+	position: absolute;
+	right:0;
+	margin-top:45px;
+}
+/* logo */
+.headerWrap .logo-img{
+	margin-top:20px;
+}
+/* title */
+.headerWrap .head-title{
+	float: left;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:40px;
+	margin-left:10px;
+}
+/* nav */
+.navWrap{
+	width:100%;
+	height:42px;
+	margin-top:14px;
+	font-size:16px;
+}
+.navWrap li{
+	width:114px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	float:left;
+	margin-right:20px;
+	position:relative;
+}
+.navWrap li a{
+	display:inline-block;
+	width:100%;
+}
+.navWrap li a img{
+	vertical-align:middle;
+}
+.navWrap .last-li{
+	margin-right:0;
+}
+.active{
+	background:#038fee;
+	color:#fff;
+}
+.navWrap .navActive{
+	background:#038fee;
+	color:#fff;
+}
+/* 菜单浮出 */
+.nav-list{
+	position:absolute;
+	top:42px;
+	left:0;
+	z-index: 999;
+	font-size:14px;
+}
+.nav-list li{
+	width:104px;
+	height:41px;
+	line-height:40px;
+	text-align:center;
+	background:#038fee;
+	padding:0 5px;
+}
+.nav-list li a{
+	color:#fff;
+	border-top:1px solid #fff;
+	display:inline-block;
+	width:100%;
+}
+/* 选中状态 */
+.nav-list li:hover{
+	background:#0384dc;
+}
+.nav-list li:hover a{
+	background:#0384dc;
+}
+/*实时播报*/
+.ssbb{
+	height:170px;
+}
+.ssbb-top img{
+	margin:5px;
+}
+.ssbb-top{
+	width:100%;
+	height:35px;
+	background:#fffcf3;
+	margin:5px 0;
+}
+#scrollDiv{
+	width:1000px;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	display:inline-block;
+	color:red;
+}
+.cy-box li{
+	float:left;
+	margin-right:20px;
+	cursor:pointer;
+}
+.cy-box li:last-child{
+	margin-right:0;
+}
+/* 主体内容 */
+.index-box{
+	height:1074px;
+	/*margin-top:24px;*/
+}
+/* 左内容 */
+.index-content-l{
+	width:938px;
+	height:1074px;
+	float:left;
+}
+
+/* 轮播图 */
+.index-content-l .banner-box{
+	width:466px;
+	height:316px;
+	float:left;
+	overflow:hidden;
+	margin-top:20px;
+}
+#dAdv{
+	width:466px;
+	height:314px;
+}
+#dAdv img{
+	width:100%;
+	height:100%;
+}
+#dAdv ul{
+	list-style-type:none;
+	position:relative;
+	height:20px;
+	top:-25px;
+	left:400px;
+}
+#dAdv ul li{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	text-align:center;
+	margin-right:5px;
+	opacity:0.8;
+	line-height:42px;
+	overflow:hidden;
+}
+.normal{
+	color:#eee;
+	cursor: pointer;
+	background-color:#c3c3c3;
+}
+.highlight{
+	color:#333;
+	/* background-color:lightgray; */
+	background: #4898ed;
+}
+#spTitle{
+	width: 100%;
+	height:30px;
+	line-height: 30px;
+	font-size:22px;
+	background-color: rgba(48,48,48,0.4);
+	color:#fff;
+	font-weight: bold;
+	display: inline-block;
+	position:relative;
+	top:-50px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+/* 轮播图右侧内容 */
+.index-content-l .banner-r-content{
+	width:426px;
+	height:330px;
+	float:right;
+	overflow:hidden;
+	margin-right:20px;
+}
+.banner-r-content h1{
+	font-size:20px; 
+	margin-bottom:5px;
+	cursor:pointer;
+}
+.banner-r-content h1 a{
+	color:#0972d3;
+}
+.banner-r-content h1:hover a{
+	color:#038fee;
+}
+.banner-r-content h2{
+	color:#7e7e7e;
+	line-height:20px;
+	margin-bottom:5px;
+}
+.item-list li{
+	margin:12px 0;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	line-height:20px;
+	padding-right:35px;
+}
+.item-list li:before{
+	content:"";
+	width:15px;
+	height:15px;
+	background:url("../imgs/list.png") no-repeat;
+	display:inline-block;
+	margin-right: 5px;
+	position:relative;
+	top:2px;
+}
+.item-list li a:hover{
+	color:#038fee; 
+}
+/* 热点推荐 */
+.index-content-l .hot-content,
+.index-content-l .line-content{
+	height:240px;
+	overflow:hidden;
+	margin-top: 30px;
+}
+.index-content-l .hot-content{
+	width:464px;
+}
+/* 标题 */
+.item-title{
+	width:100%;
+	height:30px;
+	font-size:18px;
+	border-bottom:1px solid #9bc2ff;
+}
+.item-title img{
+	vertical-align: middle;
+	margin-right:6px;
+}
+/* 更多 */
+.item-title a{
+	font-size: 12px;
+	color:#666;
+	margin:5px 10px;
+}
+.item-title a:hover{
+	color:#038fee;  
+}
+/* 热点推荐内容 */
+.hot-img-l,.hot-img-r{
+	width:219px;
+	height:150px;
+	text-align: center;
+	margin-top:15px;
+}
+.hot-img-l .img,.hot-img-r .img{
+	width: 219px;
+	height:130px;
+	margin-bottom:10px;
+}
+.hot-img-l .img img,.hot-img-r .img img{
+	width:100%;
+}
+.hot-img-l a:hover p,.hot-img-r a:hover p{
+	color: #038fee;
+}
+
+/* 政策在线 */
+.index-content-l .line-content{
+	width:448px;
+}
+/* 我要创业 */
+.index-content-l .myWork{
+	width:938px;
+	height:198px;
+	margin-top:20px;
+}
+/* 标题 */
+.item-title1{
+	width:100%;
+	height:30px;
+	padding-top:10px;
+	background:url("../imgs/title2.png") no-repeat;
+}
+.item-title1 h1{
+	font-size:18px;
+	margin-left:5px;
+}
+/* 我要创业六大内容 */
+.myWork-content{
+	width:100%;
+	height:130px;
+	margin-top:20px;
+}
+.myWork-content li{
+	text-align: center;
+	float: left;
+	width: 16%;
+}
+.myWork-content li p{
+	margin-top:15px;
+}
+.myWork-content li a:hover{
+	color: #038fee; 
+}
+/* 专业平台 */
+.index-content-l .terrace{
+	width:938px;
+	height:250px;
+}
+/* 专业平台二大平台 */
+.terrace-img-l,.terrace-img-r{
+	width:435px;
+	height:193px;
+	margin:20px 15px 0;
+	display:inline-block;
+}
+.terrace-img-l img,.terrace-img-r img{
+	width:100%;
+}
+/* 右内容 */
+.index-content-r{
+	width:220px;
+	height:1074px;
+	float:right;
+}
+/* 双创活动 */
+.index-content-r .two-chuang{
+	width:100%;
+	height:340px;
+	border-top:2px solid #038fee;
+	overflow:hidden;
+}
+/* 图片 */
+.two-chuang-img{
+	width: 225px;
+	height:160px;
+	margin:5px 0;
+}
+.two-chuang-img img{
+	width:100%;
+}
+.two-chuang-img h1{
+	color:#666;
+	margin: 8px 0;
+}
+.two-chuang-img:hover h1{
+	color:#038fee;
+}
+/* 内容 */
+.two-chuang-list{
+	overflow:hidden;
+	border-top:1px solid #bde4fe;
+}
+.two-chuang-list li{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin:9px 0;
+}
+.two-chuang-list li span{
+	margin-right:5px;
+}
+.two-chuang-list li a{
+	color:#2e2e2e;
+}
+.two-chuang-list li:hover a{
+	color:#038fee;
+}
+/* 市县平台 */
+.index-content-r .shixian{
+	width:100%;
+	height:275px;
+	border-top:2px solid #038fee;
+}
+.shixian-content h1{
+	color:#038fee;
+	margin:10px 0;
+	cursor:pointer;
+}
+.shixian-content .news{
+	overflow:hidden;
+	margin-bottom:5px;
+}
+.shixian-content img{
+	width:115px;
+	height:85px;
+	float:left;
+}
+.shixian-content .shixian-r{
+	float:right;
+	color: #7e7e7e;
+	width:100px;
+	height:85px;
+}
+.shixian-r span{
+	line-height:17px;
+	display:inline-block;
+}
+.shixian-r span a:hover{
+	color: #038fee;
+}
+
+/* 双创文化 */
+.index-content-r .wenhua{
+	width:100%;
+	height:190px;
+	border-top:2px solid #038fee;
+}
+.wenhua h1{
+	color:#0972d3;
+	line-height:20px;
+	margin-top:10px;
+}
+.wenhua h2{
+	font-weight:bold;
+}
+/* 双创评估 */
+.index-content-r .pinggu{
+	width:100%;
+	height:260px;
+	border-top:2px solid #038fee;
+}
+.pinggu h1{
+	color:#038fee;
+	margin:10px 0 0;
+	cursor:pointer;
+}
+/* footer */
+.footWrap{
+	width:100%;
+	height:346px;
+	border-top:2px solid #038fee;
+	background:#f4f4f4;
+}
+.footWrap .boxWrap{
+	height:225px;
+	padding-top:25px;
+}
+/* 友情链接 */
+.footWrap .youqing-l{
+	width:80px;
+	height:125px;
+}
+.footWrap .youqing-r{
+	width:1120px;
+	height:125px;
+}
+.footWrap .youqing-r .yq-top{
+	margin-right:38px;
+}
+.footWrap .youqing-r .yq-btm{
+	margin-right:78px;
+}
+.footWrap .youqing-r a{
+	display:inline-block;
+	margin-bottom:30px;
+}
+.footWrap .youqing-list{
+	text-align:center;
+}
+.footWrap .youqing-list span{
+	line-height:28px;
+	display: inline-block;
+	margin-right:2px;
+}
+/* 底部说明 */
+.btm-box{
+	text-align:center;
+	height:80px;
+	line-height:30px;
+	padding-top:15px;
+	border-top:1px solid #c5c3c4;
+	background: #ebeaea;
+}
+
+/* 首页结束 */
+
+/* 文章详情页开始 */
+/* 主体内容 */
+.detail-box{
+	overflow:hidden;
+	margin-bottom:50px;
+}
+/* 路径标题 */
+.detail-box>h1{
+	margin:20px 0;
+}
+/* 资讯速递 */
+.detail-box .zixun{
+	width:200px;
+	height:460px;
+	margin-right:25px;
+	background:#fff;
+	z-index: 99;
+}
+.zixun  h1{
+	font-size:18px;
+	font-weight:bold;
+	margin-top:10px;
+	padding-bottom:10px;
+	color:#038fee;
+	letter-spacing:1px;
+	border-bottom:1px solid #eee;
+}
+.zixun ul li{
+	width:190px;
+	height:48px;
+	border-bottom:1px solid #eee;
+	padding:10px 5px;
+	line-height:22px;
+	cursor:pointer;
+}
+.zixun ul li a{
+	display:inline-block;
+	background:#fff;
+}
+.zixun ul li:hover{
+	background:#f7f7f7;
+}
+.zixun ul li:hover a{
+	color:#038fee;
+}
+/* 详情内容 */
+.detail-box .detail-content{
+	width:615px;
+	margin-right:24px;
+}
+.detail-content h1{
+	font-weight: bold;
+	font-size:26px;
+	letter-spacing:1px;
+	text-align:center;
+}
+.detail-content h2{
+	text-align:center;
+	color:#666;
+	margin:10px 0;
+}
+.detail-content .detail-img{
+	text-align: center;
+	margin-bottom:20px;
+}
+.acticel p{
+	text-indent:2em;
+	line-height:28px;
+}
+
+/* 最新动态 专业平台 */
+.detail-box .newsWrap{
+	width:330px;
+	height:1030px;
+	border-top: 2px solid #038fee;
+	padding-top: 10px;
+}
+.news-list{
+	padding-bottom:25px;
+	border-bottom: 2px solid #038fee;
+	margin-bottom:10px;
+}
+.news-list ul li {
+	padding:10px 0;
+	border-bottom:1px solid #eee;
+}
+.news-list ul li img{
+	margin-right:5px;
+}
+.news-list ul li span{
+	display: inline-block;
+    width: 210px;
+}
+.news-list ul li a:hover{
+	color:#038fee;
+}
+.pt-list img{
+	margin-top:10px;
+}
+
+/* 文章详情页结束 */
+
+/* 文章列表页开始 */
+.list-content{
+	width:850px;
+	border-top: 2px solid #038fee;
+}
+/* 搜索框 */
+.list-inp{
+	width:100%;
+	height:59px;
+	background:url("../imgs/bj.jpg") no-repeat;
+	background-size:100%;
+	font-size:16px;
+	color:#177abd;
+	text-align: center;
+	padding-top:25px;
+	border-bottom: 1px solid #d9eaf5;
+}
+.list-inp input{
+	width:230px;
+	height:33px;
+	border: 1px solid #88c2e9;
+	padding-left:5px;
+	margin:0 20px;
+}
+.list-inp button{
+	width: 75px;
+	height:35px;
+	border: 1px solid #88c2e9;
+	text-align: center;
+	line-height:34px;
+	background:#fff;
+	font-size:16px;
+	color:#177abd;
+	cursor:pointer;
+	position:relative;
+	top: 1px;
+}
+.list-inp button:hover{
+	background:#038fee;
+	color:#fff;
+}
+/* 列表内容 */
+.list-content ul{
+	padding-top:10px;
+}
+.list-content ul li{
+	border-bottom:1px dotted #74b2dc;
+	overflow:hidden;
+	font-size:16px;
+	line-height:40px;
+}
+.list-content ul li .date{
+	color: #999;
+	font-size:14px;
+	margin-right:5px;
+}
+.list-content ul li:before{
+	content:"";
+	width:8px;
+	height:8px;
+	background:#038fee;
+	display:inline-block;
+	margin:0 8px;
+}
+.list-content ul li span:hover{
+	color:#038fee;
+	cursor:pointer;
+}
+/* 分页 */
+.page{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+.page span{
+	display:inline-block;
+	padding:1px 10px;
+	border:1px solid #99bbe0;
+	margin:0 2px;
+	border-radius:2px;
+	cursor:pointer;
+}
+.pageActive{
+	background:#154e9b;
+	color:#fff;
+}
+.page span:hover{
+	background:#154e9b;
+	color:#fff;
+}
+/* 文章列表页结束 */
+
+/* 区县平台4个首页开始 */
+
+/* 专业平台 */
+.zypt-box{
+	border-top:2px solid #038fee;
+	padding-top:10px;
+}
+.myWork-list li {
+	width:33%;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+#list li{
+	line-height: 27px;
+	margin-top:12px;
+}
+.banner-title{
+	height: 135px;
+	background:#ebebec;
+	padding-top:10px;
+}
+.banner-title h1{
+	font-size:18px;
+	font-weight:bold;
+	margin:0px 10px;
+	line-height:30px;
+	letter-spacing:1px;
+	cursor:pointer;
+}
+.banner-title h1:hover a{
+	color:#038fee;
+}
+.banner-title p{
+	color:#666;
+	margin:5px 10px;
+	line-height:26px;
+}
+/* 区县平台4个首页结束 */
+
+/* 大众创业开始 */
+.public-box{
+	height:1460px;
+	overflow:hidden;
+}
+.public-banner{
+	/*margin-top:15px;*/
+	margin-bottom:20px;
+	height:480px; 
+}
+/* 创业工具 */
+.public-gongju{
+	height:736px;
+	width:100%;
+}
+.public-gongju .item-title1{
+	background: url("../imgs/title3.png") no-repeat;
+}
+/* 图片内容 */
+.public-img .img-box{
+	width:291px;
+	height:206px;
+	text-align: center;
+	font-size:16px;
+	line-height:40px;
+	margin: 10px 6px 15px 3px;
+	float: left;
+}
+.public-img .img-box a:hover{
+	color: #038fee;
+}
+.headerWrap{
+	width: 100%;
+    height: 159px;
+    border-bottom: 1px solid #038fee;
+}
+
+/* 大众创业结束 */
+
+/*美类创业页面开始*/
+.item2-box{
+	height:1325px;
+}
+/*第几位创业*/
+.item2-box-top{
+	height:620px;
+}
+.item2-box-top .num{
+	width:230px;
+	height:33px;
+	line-height:33px;
+	border:1px solid #ffcf71;
+	background:#fff1db;
+	text-align: center;
+	margin:5px 0 10px;
+	letter-spacing:1px;
+}
+.item2-box-top .num span{
+	color:#ff4200;
+}
+/*创业步骤*/
+.item2-box-top .buzhou{
+	height:545px;
+	background:#edf8ff ;
+}
+.buzhou-l{
+	width:380px;
+	height:440px;
+	float:left;
+	margin-left:190px;
+	margin-top:45px;
+}
+.buzhou-l h1{
+	font-size:30px;
+	color:#038fee;
+}
+.buzhou-l h2{
+	font-size:25px;
+	color:#fd6b00;
+	margin-bottom:10px;
+}
+.buzhou-l li{
+	font-size:18px;
+}
+.buzhou-l li .cybz-img{
+	display:inline-block;
+	width:90px;
+	height:116px;
+	margin-left:10px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align: middle;
+}
+.buzhou-l li .cybz-img>img{
+	width:90px;
+	height:90px;
+}
+.buzhou-l li .cybz-img span{
+	font-size:12px;
+}
+.buzhou-l li .cybz-img span img{
+	vertical-align:middle;
+}
+.buzhou-l li:first-child{
+	height:115px;
+}
+.buzhou-l li{
+	margin-bottom:18px;
+}
+.buzhou-r{
+	width:512px;
+	height:441px;
+	float:left;
+	margin-top:45px;
+}
+/*大学生创业中*/
+.item2-box-list1,.item2-box-list2{
+	height:235px;
+}
+.item2-box-list1 .hyp,.item2-box-list2 .hyp{
+	float:right;
+	margin-right:15px;
+	cursor:pointer;
+	color: #038fee;
+}
+.item2-box-list1 ul,.item2-box-list2 ul{
+	overflow:hidden;
+	width:100%;
+	height:154px;
+	position: relative;
+	margin-top:10px;
+}
+.item2-box-list1 ul li{
+	float:left;
+	width:280px;
+	height:150px;
+	border:1px solid #eee;
+	margin-right:18px;
+}
+.item2-box-list1 ul li img{
+	display:inline-block;
+	margin-top:3px;
+}
+.item2-box-list1 ul li .info{
+	display:inline-block;
+	margin-left:10px;
+	margin-top: 25px;
+}
+.item2-box-list1 ul li .info h1{
+	font-size:20px;
+}
+.item2-box-list1 ul li .info p{
+	font-size:16px;
+	color:#ff0000;
+}
+/*产品保障*/
+.item2-box-list2 ul li{
+	width:370px;
+	height:152px;
+	border:1px solid #eee;
+	float:left;
+	margin-right:28px;
+}
+.item2-box-list2 ul li img{
+	margin:10px;
+	display:inline-block;
+}
+.item2-box-list2 ul li .info1{
+	margin-top:40px;
+	display:inline-block;
+}
+.item2-box-list2 ul li .info1 h1{
+	color:#ff9600;
+	font-size:22px;
+}
+.item2-box-list2 ul li .info1 p{
+	font-size:18px;
+}
+/*美类创业页面结局*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
